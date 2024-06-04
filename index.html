@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
-<body style="background-color: antiquewhite;">
-    <div>
-        <div>x</div>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div style="width: 100%; display: inline-block;">
+        <img style="height: 30px; float: right; margin: 30px;" src="./img/close.png" alt="">
     </div>
 
-    <div>
-        <img style="background-color: red;" src="./labirintas.jpg" alt="">
-    </div style="">
-    <h1 style= "">404</h1>
-    <p style="">Looks like you are in a.maze</p>
-    <p style="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus labore quod, quae recusandae debitis maxime.</p>
+    <div style="display: inline-block; width: 46%; margin-left: 27%; margin-top: 100px;">
+        <img style="width: 40%; float: left;" src="./img/labirintas.png" alt="">
+        <div style="width: 50%; float: left; margin-left: 10%;">
+            <h1 style="font-size: 170px;margin: 0;color: green;">404</h1>
+            <p style="font-size: 24px;line-height: 1.2em; color: green;">Looks like you are in a.maze</p>
+            <p style="font-size: 22px; line-height: 1.2em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Natus labore quod, quae recusandae debitis
+                maxime.</p>
+
+        </div>
     </div>
-</div>
 </body>
 
 </html>
@@ -30,10 +34,35 @@ color: black;
 
 font-size: 100px;
 fond-family: Arial;
+font-weigth: normal;   // vietoj zodzio normal galima rasyti tiesiog skaiciu nuo 100..900
 font-weight: bold;
-font-style: italic;
-font-style: italic;
-text-decoration
+font-style: italic;   // pasvirusios raides
+                      // monospace visu simboliu plotis yra vienodas. vienas space mygtukas viena raide
+text-decoration: underline;  // pabraukia zodi 
 
+width: 200px;        // plotis
+width: 30%;         // galvoti kaip apie mm, kalbant apie px
+
+display: block;           // default, elementai deliojami vertikaliai
+display: inline;         // elgiasi kaip tekstas
+display: none;          // elementas nerodomas
+display: inline-block; //mix tarp block ir inline
+
+float: left;           // priverstinis elemento statymas horizontaliai
+float: rigth;
+
+margin: 0             // atstumas iki aplinkiniu elementu visomis kryptimis
+margin-top: 0  
+margin-botton
+margin-left          // reikia atsistumti nuo kaires, o ne i kuria puse
+margin-rigth
+
+line-heigth: 30px;
+
+px - (absoliutus) promityviausias matavimo vnt
+% - releatyvus
+em - proporcingas to paties elemento font-size
+
+1em = 100% = px
 
 -->
