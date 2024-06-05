@@ -28,7 +28,7 @@ https://git-scm.com
 Would like to run this project locally? Open terminal and follow these steps:
 1. Clone the repo
 ```
-git clone https://ramintavil.github.io/labirintass/
+git clone https://github.com/RamintaVIL/labirintass
 ```
 2. Install NPM packages
 ```
