@@ -4,7 +4,7 @@ It's my first website design project, where I'm learning the basics of HTML and 
 
 _Site published at_: https://ramintavil.github.io/labirintass/
 
-_Design_: https://www.pinterest.com/pin/464293042832100427/
+_Design from_: https://www.pinterest.com/pin/464293042832100427/
 
 ### Project goals:
 
@@ -26,37 +26,33 @@ https://git-scm.com
 ### Run locally
 
 Would like to run this project locally? Open terminal and follow these steps:
-
-+ Clone the repo
-+ git clone https://ramintavil.github.io/labirintass/
-+ Install NPM packages
+1. Clone the repo
+```
+git clone https://ramintavil.github.io/labirintass/
+```
+2. Install NPM packages
+```
 npm i
-or
+```
+  or
+```
 npm install
-+ Run the server
+```
+3. Run the server
+```
 npm run dev
+```
 
-
-🧪 Running tests
-
-There is no tests for this project.
+__There is no tests for this project.__
 
 ### Authors
 
-RamintaVi: Github
+RamintaVIL: Github
 
 
 ### License
 
-Distributed under the MIT License. See LICENSE.txt for more information.
-
-
-
-
-
-.md - markdown (failo tipas)
-
-Sintakse, kad pateikti turini tokio tipo faile yra aprasyta [cia] (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+Distributed under the ISC License. See LICENSE.txt for more information.
 
 
 
