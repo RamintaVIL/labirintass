@@ -30,44 +30,54 @@
 
 <!-- 
 
-background-color: red; 
+padding: 40px; padding-top: 20px; padding-bottom: 20px;
+padding: 20px; padding-left: 40px; padding-right: 40px;
+padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px;
+
+px - (absoliutus) primityviausias matavimo vienetas
+% - reliatyvus
+em - proporcingas to paties elemento font-size
+
+1em = 100% = ???px
+
+Tekstines stiliaus savybes yra paveldimos.
+
+background-color: red;
 color: black;
 
 font-size: 100px;
-fond-family: Arial;
-font-weigth: normal;   // vietoj zodzio normal galima rasyti tiesiog skaiciu nuo 100..900
-font-weight: bold;
-font-style: italic;   // pasvirusios raides
-                      // monospace visu simboliu plotis yra vienodas. vienas space mygtukas viena raide
-text-decoration: underline;  // pabraukia zodi 
+font-family: Arial;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: monospace;         // visu simboliu plotis yra vienodas. vienas space mygtukas viena raide
+font-weight: bold;          
+font-weight: normal;        
+font-weight: 400;
+font-style: italic;            // pasvirusios raides
+text-decoration: underline;   // pabraukia zodi 
+line-height: 30px;
 
-width: 200px;        // plotis
-width: 30%;         // galvoti kaip apie mm, kalbant apie px
+width: 200px;           // plotis
+width: 100%;
 
-display: block;           // default, elementai deliojami vertikaliai
-display: inline;         // elgiasi kaip tekstas
+display: block;         // default, elementai deliojami vertikaliai
+display: inline;        // elgiasi kaip tekstas
 display: none;          // elementas nerodomas
-display: inline-block; //mix tarp block ir inline
+display: inline-block;  // mix tarp block ir inline
 
-float: left;         // priverstinis elemento statymas horizontaliai
-float: rigth;
+float: left;            // priverstinis elemento statymas horizontaliai
+float: right;
 
-margin: 0             // atstumas iki aplinkiniu elementu visomis kryptimis
-margin-top: 0  
-margin-botton:
-margin-left:          // reikia atsistumti nuo kaires, o ne i kuria puse
-margin-rigth:
+margin: 0;              // atstumas iki aplinkiniu elementu visomis kryptimis
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
 
-padding: 0;         // atstumas visomis kryptimis nuo elemento turinio iki to paties elemento krastu
-
-
-line-heigth: 30px;
-
-px - (absoliutus) promityviausias matavimo vnt
-% - releatyvus
-em - proporcingas to paties elemento font-size
-
-1em = 100% = px
+padding: 0;              // atstumas visomis kryptimis nuo elemento turinio iki to paties elemento krastu
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;     // reikia atsistumti nuo kaires, o ne i kuria puse
 
 -->
 
